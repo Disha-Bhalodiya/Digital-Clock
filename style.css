@@ -1,0 +1,30 @@
+body {
+    background: black;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: fantasy;
+    letter-spacing: 10px;
+    padding: 100px;
+    border: 1px solid white;
+    box-shadow: 2px 1px 40px 2px white;
+}
+
+@media only screen and (max-width: 400px) {
+    .clock {
+        position: absolute;
+        color: #17D4FE;
+        font-size: 35px;
+        font-family: fantasy;
+        letter-spacing: 7px;
+        padding: 40px;
+        border: 1px solid white;
+        box-shadow: 2px 1px 40px 2px white;
+    }
+}
